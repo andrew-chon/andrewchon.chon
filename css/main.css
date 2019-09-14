@@ -2,13 +2,20 @@ temp outline class,
 delete after header,
 section,
 div,
-footer {
+footer,
+nav {
 	border: 1px solid red;
 }
 
 /* header css */
+
+.body {
+	display: flex;
+	flex-direction: column;
+}
 .header {
 	display: flex;
+	justify-content: space-between;
 }
 /* content css  */
 .portfolio-image {
@@ -18,4 +25,18 @@ footer {
 	padding: 24px;
 }
 
+.section-main {
+	display: flex;
+
+	justify-content: center;
+}
+
+.section-content {
+	max-width: 960px;
+}
+
 /* footer css */
+.footer {
+	display: flex;
+	justify-content: center;
+}
