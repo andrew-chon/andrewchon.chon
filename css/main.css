@@ -1,11 +1,12 @@
-temp outline class,
+/* temp outline class,
 delete after header,
 section,
 div,
 footer,
-nav {
+nav,
+a {
 	border: 1px solid red;
-}
+} */
 
 /* header css */
 
@@ -15,9 +16,20 @@ nav {
 	height: 100vh;
 }
 .header {
+	background-color: gray;
+	border-bottom: 4px black solid;
+	color: white;
 	display: flex;
 	justify-content: space-between;
+	padding: 24px;
 }
+
+.nav-icons {
+	color: white;
+	text-decoration: none;
+	padding: 24px;
+}
+
 /* content css  */
 .portfolio-image {
 	float: left;
@@ -30,7 +42,14 @@ nav {
 	max-width: 960px;
 }
 
+.section-header {
+	border-bottom: 1px solid black;
+	padding: 24px;
+	margin-bottom: 24px;
+}
+
 .section-main {
+	background-image: url(../img/grey.png);
 	display: flex;
 	flex-grow: 1;
 	justify-content: center;
