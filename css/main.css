@@ -12,6 +12,7 @@ nav {
 .body {
 	display: flex;
 	flex-direction: column;
+	height: 100vh;
 }
 .header {
 	display: flex;
@@ -25,14 +26,14 @@ nav {
 	padding: 24px;
 }
 
-.section-main {
-	display: flex;
-
-	justify-content: center;
-}
-
 .section-content {
 	max-width: 960px;
+}
+
+.section-main {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
 }
 
 /* footer css */
