@@ -1,0 +1,21 @@
+temp outline class,
+delete after header,
+section,
+div,
+footer {
+	border: 1px solid red;
+}
+
+/* header css */
+.header {
+	display: flex;
+}
+/* content css  */
+.portfolio-image {
+	float: left;
+	height: auto;
+	max-width: 15%;
+	padding: 24px;
+}
+
+/* footer css */
