@@ -94,9 +94,8 @@ a {
 }
 
 .portrait {
-	height: auto;
 	width: 50%;
-	object-fit: cover;
+	/* object-fit: cover; */
 }
 
 .right-container {
