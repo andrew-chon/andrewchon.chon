@@ -1,38 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link type="text/css" rel="stylesheet" href="./css/normalize.css" />
     <link type="text/css" rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Andrew Chon - About Me</title>
-</head>
-<body class="body">
-    <!-- Header -->
-    <header class="header">
-        <!-- Logo -->
-        <a href="./index.html" class="logo">Andrew Chon</div>
-        <!-- Nav -->
-        <nav>
-            <a href="./about.html" class="header-nav">About Me</a>
-            <a href="./portfolio.html" class="header-nav">Portfolio</a>
-            <a href="./contact.html" class="header-nav">Contact</a>
-        </nav>
-    </header>
-    <!-- Section-->
-    <div class="=wrapper">
-		<div class="section-body">
-            <h1>
-                About Me
-            </h1>
-            <p>
-                    Lorem ipsum dolor sit amet, doming numquam liberavisse ius in, an cum simul numquam perfecto. Enim malorum dignissim ius an, an appetere dissentiet qui. Volutpat patrioque ad mea. An mundi accusata nec, ut noster recusabo interesset mel. Lorem bonorum deseruisse usu ex. 
-            </p>
-            <p>
-                    Exerci partem vituperata ad mel. Vim nusquam mnesarchum cu, eum cu mutat dignissim quaerendum, qui alia decore et. Ad pro quando nusquam contentiones, iusto noster sed ex. In his lucilius sententiae, homero dignissim nec no, te mutat menandri adipiscing mel. Sed eu quidam constituto, ne duo meis elitr iuvaret. Homero facete quo ut, ex iudicabit principes pri. Adipiscing omittantur an eum, fuisset recusabo salutandi at eum.
-            </p>
-    </div>
-</body>
+  </head>
+
+  <body class="bgc-custom h-100">
+    <!-- Nav Bar  -->
+    <nav class="navbar is-dark">
+      <div class="navbar-brand">
+        <a class="ff-m fw-700 is-size-3 navbar-item" href="./index.html"
+          >Andrew Chon</a
+        >
+        <div
+          class="navbar-burger"
+          onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="./about.html">About Me</a>
+          <a class="navbar-item" href="./portfolio.html">Portfolio</a>
+          <a class="navbar-item" href="./contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--  Section  -->
+    <section class="section">
+      <div class="container has-background-white">
+        <h1 class="ff-m fw-700 is-size-1 p-">About me</h1>
+        <p class="ff-m fw-300 is-size-5 p- ">
+          I was born and raised in peachy Atlanta, Georgia. I went to Emory
+          University where I got my biology major. I currently live in Chicago
+          and work at Tempus, a healthtech startup trying to improve cancer
+          treatment.
+        </p>
+        <p class="ff-m fw-300 is-size-5 p-">
+          I am currently taking the NorthWestern Full Stack bootcamp and hope to
+          achieve a career in coding. By the end, I will be knowledgable in
+          HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js,
+          Node.js, Database Theory, MongoDB, MySQL, Command Line, Git, Java, and
+          more.
+        </p>
+        <p class="ff-m fw-300 is-size-5 p-">
+          My hobbies include running, weightlifting, bowling, and really
+          anything thats physical and gets me active. I recently have gotten
+          into cooking, and am always looking for new recipies to try.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
