@@ -14,3 +14,9 @@
 .bc-test {
   background-color: lightgrey;
 }
+
+.portfolioCard {
+  /* height: 400px; */
+  max-width: 450px;
+  margin: 0px auto;
+}
