@@ -10,3 +10,7 @@
 .jc-sb {
   justify-content: space-between;
 }
+
+.bc-test {
+  background-color: lightgrey;
+}
