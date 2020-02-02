@@ -1,65 +1,12 @@
-/* Background */
-.bgc-custom {
-  background-color: rgb(42, 73, 87);
+.b {
+  border: 1px red solid;
 }
 
-/* Box Sizing */
-.h-100 {
-  min-height: 100vh;
-}
-/* Visual Formatting */
-.ai-c {
-  align-items: center;
-}
-
+/* flexbox */
 .df {
   display: flex;
 }
 
-.fd-c {
-  flex-direction: column;
-}
-
-.jc-c {
-  justify-content: center;
-}
-
-/* Fonts */
-.ff-m {
-  font-family: 'Montserrat', 'Arial', sans-serif;
-}
-
-.fw-100 {
-  font-weight: 100;
-}
-.fw-200 {
-  font-weight: 200;
-}
-.fw-300 {
-  font-weight: 300;
-}
-.fw-400 {
-  font-weight: 400;
-}
-.fw-500 {
-  font-weight: 500;
-}
-.fw-600 {
-  font-weight: 600;
-}
-.fw-700 {
-  font-weight: 700;
-}
-
-/*  Padding and Margin  */
-.p {
-  padding: 24px;
-}
-
-.p- {
-  padding: 12px;
-}
-
-.p-- {
-  padding: 6px;
+.jc-sb {
+  justify-content: space-between;
 }
