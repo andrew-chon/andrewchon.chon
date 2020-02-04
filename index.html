@@ -8,8 +8,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
     />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css" />
-    <!-- <link rel="stylesheet" href="./css/normalize.css" /> -->
+    <!-- <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/androidstudio.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script> -->
+    <script>hljs.initHighlightingOnLoad();</script>
     <!-- <script
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
@@ -17,9 +21,9 @@
   </head>
   <body>
     <!-- Hero -->
-    <section class="hero is-medium is-primary">
+    <section class="hero is-medium">
       <!-- NavBar -->
-      <div class="hero-head">
+      <!-- <div class="hero-head">
         <nav class="navbar is-transparent">
           <div class="navbar-end">
             <a href="" class="navbar-item">About Me</a>
@@ -27,22 +31,21 @@
             <a href="" class="navbar-item">Contact</a>
           </div>
         </nav>
-      </div>
+      </div> -->
 
       <div class="hero-body">
         <div class="container b">
-          <div class="df jc-sb b">
+          <div class="df jc-sb b" id='profile'>
             <div>
-              <h1 class="title">
+              <h1 class=" df font fs-1-5 fw-600 title">
                 Andrew Chon
-                <button>☽</button>
               </h1>
 
-              <h3 class="subtitle">Hello!</h3>
+              <h3 class=" font fs-1 fw-400 c-grey subtitle">Hello!</h3>
             </div>
-            <div>
-              <a href="">Github</a> <a href="">LinkedIn</a>
-              <a href="">Email</a> <a href="">resume</a>
+            <div class="v-center">
+              <a href="" class="navLink font">Github</a> <a href="" class="navLink font">LinkedIn</a>
+              <a href="" class="navLink font">Email</a> <a href="" class="navLink font">resume</a><button id="theme-button">☽</button>
             </div>
           </div>
         </div>
@@ -50,21 +53,25 @@
     </section>
 
     <section class="section b">
-      <div class="container b">
+      <div class="container b df">
         <div class="b">
           <p>Currently Looking</p>
-          <p>
-            Full-Stack developer currently studying at Northwestern Bootcamp.
-          </p>
+          <p class="fs-2 fw-300 font">
+            Full-Stack aspiring developer currently studying at Northwestern
+            Bootcamp in Chicago, IL. Clinical data analyst at Tempus, a $3
+            billion healthtech unicorn.
+          </p c>
         </div>
-        <div class="b">Skills</div>
+        <!-- <div class="b code-container"><pre><code class="lang-JSON">
+{"name": "andrew"}
+        </code></pre></div> -->
       </div>
     </section>
 
     <!-- Portfolio (Grid based w/ responsiveness) -->
     <section class="section b">
       <div class="container ">
-        <div class="columns is-multiline is-variable is-8">
+        <div class="columns b is-centered is-multiline is-variable is-8">
           <div class="column is-half">
             <div class="card portfolioCard">
               <div class="card-image">
@@ -79,12 +86,12 @@
                 <div class="media">
                   <div class="media-content">
                     <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">github links</p>
                   </div>
                 </div>
                 <div class="content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus nec iaculis mauris.
-                  <br />
                 </div>
               </div>
             </div>
@@ -103,12 +110,12 @@
                 <div class="media">
                   <div class="media-content">
                     <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">github links</p>
                   </div>
                 </div>
                 <div class="content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus nec iaculis mauris.
-                  <br />
                 </div>
               </div>
             </div>
@@ -127,36 +134,12 @@
                 <div class="media">
                   <div class="media-content">
                     <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">github links</p>
                   </div>
                 </div>
                 <div class="content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Phasellus nec iaculis mauris.
-                  <br />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column is-half">
-            <div class="card portfolioCard">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img
-                    src="https://picsum.photos/200/200"
-                    alt="Placeholder image"
-                  />
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title is-4">John Smith</p>
-                  </div>
-                </div>
-                <div class="content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus nec iaculis mauris.
-                  <br />
                 </div>
               </div>
             </div>
