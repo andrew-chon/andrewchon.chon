@@ -3,6 +3,7 @@ html {
   --text-color: hsl(0, 0%, 29%);
   --background: hsl(0, 0%, 100%);
   --text-color-link: hsl(0, 0%, 30%);
+  --text-color-subtitle: hsl(0, 0%, 49%);
 }
 
 body {
@@ -24,6 +25,8 @@ body {
 html[data-theme='dark'] {
   --background: hsl(0, 0%, 10%);
   --text-color: hsl(0, 0%, 100%);
+  --text-color-link: hsl(0, 0%, 85%);
+  --text-color-subtitle: hsl(0, 0%, 85%);
 }
 
 .code-container {
@@ -55,10 +58,11 @@ img {
   max-width: 450px;
   margin: 0px auto;
 }
-.tag {
-  background-color: red;
+.subtitle {
+  color: var(--text-color-subtitle);
 }
-#theme-button {
+#themeButton {
+  color: inherit;
   background: none;
   border: none;
   font-size: inherit;
@@ -109,9 +113,7 @@ img {
 .b {
   border: 1px red solid;
 }
-.c-grey {
-  color: #7c7c7c;
-}
+
 .font {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
 }

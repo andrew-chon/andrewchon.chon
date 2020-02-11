@@ -1,7 +1,5 @@
-console.log('js loaded');
-
 /* Dark mode toggle */
-const toggle = document.getElementById('theme-button');
+const toggle = document.getElementById('themeButton');
 const html = document.documentElement;
 
 //Set dark or light mode theme
