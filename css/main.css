@@ -4,12 +4,20 @@ html {
 	--background: hsl(0, 0%, 100%);
 	--text-color-link: hsl(0, 0%, 30%);
 	--text-color-subtitle: hsl(0, 0%, 49%);
+	--card-background: #hsl(0, 0%, 100%);
 }
 
 body {
 	background-color: var(--background);
 	color: var(--text-color);
 	transition: background 500ms ease-in-out, color 200ms ease;
+}
+
+.textColor {
+	color: var(--text-color);
+}
+.card-content {
+	background-color: var(--card-background);
 }
 .navLink,
 .navlink:visited,
@@ -23,10 +31,11 @@ body {
 }
 
 html[data-theme="dark"] {
-	--background: hsl(0, 0%, 10%);
+	--background: hsl(218, 22%, 10%);
 	--text-color: hsl(0, 0%, 100%);
 	--text-color-link: hsl(0, 0%, 85%);
 	--text-color-subtitle: hsl(0, 0%, 85%);
+	--card-background: hsl(221, 20%, 16%);
 }
 
 .code-container {
