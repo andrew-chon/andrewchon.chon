@@ -58,6 +58,13 @@ img {
   max-width: 450px;
   margin: 0px auto;
 }
+
+#profileIcon {
+  border-radius: 50%;
+  height: 80px;
+  margin-right: 20px;
+  width: auto;
+}
 .subtitle {
   color: var(--text-color-subtitle);
 }
@@ -83,7 +90,7 @@ img {
   h3 {
     display: none;
   }
-  #profile {
+  #profileWrapper {
     flex-direction: column;
     align-items: center;
   }
