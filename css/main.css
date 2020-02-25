@@ -195,22 +195,25 @@ img {
 .margin {
   margin: 0px 10%;
 }
+.mb-12 {
+  margin-bottom: 12px;
+}
 .mb-24 {
   margin-bottom: 24px;
 }
 
-.vpadding-25 {
-  padding: 25px 0px;
+.vpadding-6 {
+  padding: 6px 0px;
 }
-.vpadding-30 {
-  padding: 30px 0px;
+.vpadding-12 {
+  padding: 12px 0px;
 }
-.vpadding-35 {
-  padding: 45px 0px;
+.vpadding-24 {
+  padding: 24px 0px;
 }
-.vpadding-40 {
-  padding: 40px 0px;
+.vpadding-48 {
+  padding: 48px 0px;
 }
-.vpadding-45 {
-  padding: 45px 0px;
+.vpadding-72 {
+  padding: 72px 0px;
 }
