@@ -1,2 +1,4 @@
 # andrewchon.chon
-My website. Hire me please.
+My website. 
+
+Used Bulma and vanilla HTML/Javascript.
