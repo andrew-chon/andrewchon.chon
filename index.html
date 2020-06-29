@@ -1,265 +1,267 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Andrew Chon - Full-Stack Engineer</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-    <script defer src="./app.js"></script>
 
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andrew Chon - Full-Stack Engineer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <script defer src="./app.js"></script>
 
-  <body>
-    <!-- Hero -->
-    <section class="hero is-medium">
+</head>
 
-      <div class="hero-body">
-        <div class="container">
-          <div class="df jc-sb" id="headerWrapper">
-            <div class="df" id='profileWrapper'>
-              <img id='profileIcon' src="./Images/ProfileClose.jpg" alt="">
-              <div class="v-center">              
-                <h1 class=" df font fs-1-5 fw-600">
+<body>
+  <!-- Hero -->
+  <section class="hero is-medium">
+
+    <div class="hero-body">
+      <div class="container">
+        <div class="df jc-sb" id="headerWrapper">
+          <div class="df" id='profileWrapper'>
+            <img id='profileIcon' src="./Images/ProfileClose.jpg" alt="">
+            <div class="v-center">
+              <h1 class=" df font fs-1-5 fw-600">
                 Andrew Chon
               </h1>
-              <h3 class=" font fs-1 fw-400 subtitle">Hi! 👋</h3></div>
+              <h3 class=" font fs-1 fw-400 subtitle">Hi! 👋</h3>
             </div>
-            <div class="v-center">
-              <a href="mailto:andrewdchon@gmail.com" target="_blank" class="navLink font rel="noopener noreferrer">Email</a>
-              <a href="https://github.com/theandrewchon" class="navLink font">Github</a>
-              <a href="https://www.linkedin.com/in/andrew-chon-0955181a1/" class="navLink font">LinkedIn</a>
-              <a href="./assets/resume.pdf" class="navLink font">Resume</a>
-              <button id="themeButton">☽</button>
-            </div>
+          </div>
+          <div class="v-center">
+            <a href="mailto:andrewdchon@gmail.com" target="_blank" class="navLink font rel=" noopener
+              noreferrer">Email</a>
+            <a href="https://github.com/theandrewchon" class="navLink font">Github</a>
+            <a href="https://www.linkedin.com/in/andrew-chon-0955181a1/" class="navLink font">LinkedIn</a>
+            <a href="./assets/resume.pdf" class="navLink font">Resume</a>
+            <button id="themeButton">☽</button>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section">
-      <div class="container df">
-        <div>
-          <p class="is-danger is-light mb-12 tag" id='tagStatus'>Currently Looking</p>
-          <p class="fs-2 fw-300 font" id='bio'>
-             Full stack web developer and clinical data analyst at
-            Tempus, a $5 billion healthtech unicorn. My skillsets include React, Node, Express, SQL, and MongoDB. Currently liviing in Chicago, IL.
-          </p>
-        </div>
+  <section class="section">
+    <div class="container df">
+      <div>
+        <p class="is-danger is-light mb-12 tag" id='tagStatus'>Currently Looking</p>
+        <p class="fs-2 fw-300 font" id='bio'>
+          TestPR
+          Full stack web developer and clinical data analyst at
+          Tempus, a $5 billion healthtech unicorn. My skillsets include React, Node, Express, SQL, and MongoDB.
+          Currently liviing in Chicago, IL.
+        </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Portfolio (Grid based w/ responsiveness) -->
-    <section class="section"> 
-      <main class="container">
-        <p class="fs-2-5 font fw-600 mb-24 ta-c ">Projects</p>
-        <div class="columns is-centered is-multiline is-variable is-8">
+  <!-- Portfolio (Grid based w/ responsiveness) -->
+  <section class="section">
+    <main class="container">
+      <p class="fs-2-5 font fw-600 mb-24 ta-c ">Projects</p>
+      <div class="columns is-centered is-multiline is-variable is-8">
 
-          <div class="column is-half">
-            <div class="card portfolioCard">
-              <div class="card-image">
-                <figure>
+        <div class="column is-half">
+          <div class="card portfolioCard">
+            <div class="card-image">
+              <figure>
+                <a href="https://mern-dev-con.herokuapp.com/">
+                  <img src="./Images/devcon.png" alt="DevConnector" /></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
                   <a href="https://mern-dev-con.herokuapp.com/">
-                    <img src="./Images/devcon.png" alt="DevConnector"
-                  /></a>
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <a href="https://mern-dev-con.herokuapp.com/">
-                      <p class=" textColor title is-4">BAE</p>
-                    </a>
-                    <p class="subtitle is-6">
-                      <a href="https://github.com/theandrewchon/MERN-githubpage">GitHub</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="content">
-                  <p class="textColor">
-                    DevConnector is a social network app for developers to converse and post in a public forum. It uses Stateless JWT authentication and Redux for state management.  
+                    <p class=" textColor title is-4">BAE</p>
+                  </a>
+                  <p class="subtitle is-6">
+                    <a href="https://github.com/theandrewchon/MERN-githubpage">GitHub</a>
                   </p>
-                  <p style="margin-bottom: 0px">Username: testuser@gmail.com</p>
-                  <p>Password: user123</p>
-                  <p class="textColor">Technology: React, Redux, Node, Express,MongoDB, & JWT</p>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="column is-half">
-            <div class="card portfolioCard">
-              <div class="card-image">
-                <figure>
-                  <a href="https://mern-bae.herokuapp.com/">
-                    <img src="./Images/bae.png" alt="BAE"
-                  /></a>
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <a href="https://mern-bae.herokuapp.com/">
-                      <p class=" textColor title is-4">BAE</p>
-                    </a>
-                    <p class="subtitle is-6">
-                      <a href="https://github.com/theandrewchon/BAE">GitHub</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="content">
-                  <p class="textColor">
-                    BAE is a webapp to prevent meetings that should've been an email.  The host sets the meeting beforehand, and the atendees up/downvote the agenda items they feel need to be discussed. If an items
-                    has negative votes, it switches to a BAE (Been An Email) item.  
-                  </p>
-                  <p>My role was setting up backend, including setting up the Express API routes and creating the MongoDB models.  I also coded the home and user page.</p>
-                  <p style="margin-bottom: 0px">Username: testuser@gmail.com</p>
-                  <p>Password: user123</p>
-                  <p class="textColor">Technology: Node.js, Express, React, and MongoDB, Passport</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="column is-half">
-            <div class="card portfolioCard">
-              <div class="card-image">
-                <figure>
-                  <a href="https://fitboardathletic.herokuapp.com/">
-                    <img src="./Images/FitBoard.png" alt="FitBoard"
-                  /></a>
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <a href="https://fitboardathletic.herokuapp.com/">
-                      <p class=" textColor title is-4">FitBoard</p>
-                    </a>
-                    <p class="subtitle is-6">
-                      <a href="https://github.com/theandrewchon/FitBoard">GitHub</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="content">
-                  <p class="textColor">
-                    A full-stack social web application where groups of friends compete with each other in their fitness journey.
-                    Friends post their pictures to our website every time they
-                    work out, and the one with the most check-ins wins the big
-                    cash pot!
-                  </p>
-                  <p class="textColor">Technology: Express, JS, MySQL, JQuery, Sequelize, Heroku,
-                     Bcrypt</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column is-half">
-            <div class="card portfolioCard">
-              <div class="card-image">
-                <figure>
-                  <a href="https://theandrewchon.github.io/spotlight/">
-                    <img src="./Images/Spotlight.png" alt="Spotlight"
-                  /></a>
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <a href="https://theandrewchon.github.io/spotlight/">
-                      <p class="textColor title is-4">Spotlight</p>
-                    </a>
-                    <p class="subtitle is-6">
-                      <a href="https://github.com/theandrewchon/spotlight">GitHub</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="content">
-                  <p class="textColor">
-                    Spotlight is a universal streaming search engine powered by
-                    the Utelly API. Users can search for a specific show or
-                    movie and find which streaming service it is on.
-                  </p>
-                  <p class="textColor">Technology: JS, JQuery, External API service</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column is-half">
-            <div class="card portfolioCard">
-              <div class="card-image">
-                <figure>
-                  <a href="https://budget-tracker-nw.herokuapp.com/">
-                    <img src="./Images/Budget Tracker.png" alt="Budget Tracker"
-                  /></a>
-                </figure>
-                
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <a href="https://budget-tracker-nw.herokuapp.com/">
-                      <p class="textColor title is-4">Budget Tracker</p>
-                    </a>
-                    <p class="subtitle is-6">
-                      <a href="https://github.com/theandrewchon/budget-tracker">GitHub</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="content">
-                  <p class="textColor">
-                    A simple budget tracker using Heroku and mLab for persistent and ubiquitous access.  It utilizes IndexedDB to temporarily store any information during any connection loss and automatically uploads it to the Mongo database when the connection is resumed.
-                  </p>
-                  <p class="textColor">Stack: MongoDB, Express, JQuery, Mongoose</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column is-half">
-            <div class="card portfolioCard">
-              <div class="card-image">
-                <figure>
-                  <a href="https://workout-tracker-ac.herokuapp.com/stats">
-                    <img src="./Images/Workout tracker.png" alt="Workout Tracker"
-                  /></a>
-                </figure>
-              </div>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <a href="https://workout-tracker-ac.herokuapp.com/stats">
-                      <p class="textColor title is-4">Workout Tracker</p>
-                    </a>
-                    <p class="subtitle is-6">
-                      <a href="https://github.com/theandrewchon/workout-tracker">GitHub</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="content">
-                  <p class="textColor">
-                    A simple budget tracker using Heroku and mLab for persistent and ubiquitous access.  It utilizes IndexedDB to temporarily store any information during any connection loss and automatically uploads it to the Mongo database when the connection is resumed.
-                  </p >
-                  <p class="textColor">Stack: MongoDB, Express, JQuery, Mongoose</p>
-                </div>
+              <div class="content">
+                <p class="textColor">
+                  DevConnector is a social network app for developers to converse and post in a public forum. It uses
+                  Stateless JWT authentication and Redux for state management.
+                </p>
+                <p style="margin-bottom: 0px">Username: testuser@gmail.com</p>
+                <p>Password: user123</p>
+                <p class="textColor">Technology: React, Redux, Node, Express,MongoDB, & JWT</p>
               </div>
             </div>
           </div>
         </div>
-      </main>
-    </section>
 
-    <!-- Footer -->
-    <footer class="ta-c vpadding-48">
-      <p>Thanks for Reading!</p>
-      <p>© 2020 & built with Bulma, HTML, CSS, Javascript</p>
-      <p>Click to view the <a href="https://github.com/theandrewchon/andrewchon.chon">source code</a></p>
-    </footer>
-  </body>
+        <div class="column is-half">
+          <div class="card portfolioCard">
+            <div class="card-image">
+              <figure>
+                <a href="https://mern-bae.herokuapp.com/">
+                  <img src="./Images/bae.png" alt="BAE" /></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <a href="https://mern-bae.herokuapp.com/">
+                    <p class=" textColor title is-4">BAE</p>
+                  </a>
+                  <p class="subtitle is-6">
+                    <a href="https://github.com/theandrewchon/BAE">GitHub</a>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <p class="textColor">
+                  BAE is a webapp to prevent meetings that should've been an email. The host sets the meeting
+                  beforehand, and the atendees up/downvote the agenda items they feel need to be discussed. If an items
+                  has negative votes, it switches to a BAE (Been An Email) item.
+                </p>
+                <p>My role was setting up backend, including setting up the Express API routes and creating the MongoDB
+                  models. I also coded the home and user page.</p>
+                <p style="margin-bottom: 0px">Username: testuser@gmail.com</p>
+                <p>Password: user123</p>
+                <p class="textColor">Technology: Node.js, Express, React, and MongoDB, Passport</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-half">
+          <div class="card portfolioCard">
+            <div class="card-image">
+              <figure>
+                <a href="https://fitboardathletic.herokuapp.com/">
+                  <img src="./Images/FitBoard.png" alt="FitBoard" /></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <a href="https://fitboardathletic.herokuapp.com/">
+                    <p class=" textColor title is-4">FitBoard</p>
+                  </a>
+                  <p class="subtitle is-6">
+                    <a href="https://github.com/theandrewchon/FitBoard">GitHub</a>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <p class="textColor">
+                  A full-stack social web application where groups of friends compete with each other in their fitness
+                  journey.
+                  Friends post their pictures to our website every time they
+                  work out, and the one with the most check-ins wins the big
+                  cash pot!
+                </p>
+                <p class="textColor">Technology: Express, JS, MySQL, JQuery, Sequelize, Heroku,
+                  Bcrypt</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="card portfolioCard">
+            <div class="card-image">
+              <figure>
+                <a href="https://theandrewchon.github.io/spotlight/">
+                  <img src="./Images/Spotlight.png" alt="Spotlight" /></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <a href="https://theandrewchon.github.io/spotlight/">
+                    <p class="textColor title is-4">Spotlight</p>
+                  </a>
+                  <p class="subtitle is-6">
+                    <a href="https://github.com/theandrewchon/spotlight">GitHub</a>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <p class="textColor">
+                  Spotlight is a universal streaming search engine powered by
+                  the Utelly API. Users can search for a specific show or
+                  movie and find which streaming service it is on.
+                </p>
+                <p class="textColor">Technology: JS, JQuery, External API service</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="card portfolioCard">
+            <div class="card-image">
+              <figure>
+                <a href="https://budget-tracker-nw.herokuapp.com/">
+                  <img src="./Images/Budget Tracker.png" alt="Budget Tracker" /></a>
+              </figure>
+
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <a href="https://budget-tracker-nw.herokuapp.com/">
+                    <p class="textColor title is-4">Budget Tracker</p>
+                  </a>
+                  <p class="subtitle is-6">
+                    <a href="https://github.com/theandrewchon/budget-tracker">GitHub</a>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <p class="textColor">
+                  A simple budget tracker using Heroku and mLab for persistent and ubiquitous access. It utilizes
+                  IndexedDB to temporarily store any information during any connection loss and automatically uploads it
+                  to the Mongo database when the connection is resumed.
+                </p>
+                <p class="textColor">Stack: MongoDB, Express, JQuery, Mongoose</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-half">
+          <div class="card portfolioCard">
+            <div class="card-image">
+              <figure>
+                <a href="https://workout-tracker-ac.herokuapp.com/stats">
+                  <img src="./Images/Workout tracker.png" alt="Workout Tracker" /></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <a href="https://workout-tracker-ac.herokuapp.com/stats">
+                    <p class="textColor title is-4">Workout Tracker</p>
+                  </a>
+                  <p class="subtitle is-6">
+                    <a href="https://github.com/theandrewchon/workout-tracker">GitHub</a>
+                  </p>
+                </div>
+              </div>
+              <div class="content">
+                <p class="textColor">
+                  A simple budget tracker using Heroku and mLab for persistent and ubiquitous access. It utilizes
+                  IndexedDB to temporarily store any information during any connection loss and automatically uploads it
+                  to the Mongo database when the connection is resumed.
+                </p>
+                <p class="textColor">Stack: MongoDB, Express, JQuery, Mongoose</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <!-- Footer -->
+  <footer class="ta-c vpadding-48">
+    <p>Thanks for Reading!</p>
+    <p>© 2020 & built with Bulma, HTML, CSS, Javascript</p>
+    <p>Click to view the <a href="https://github.com/theandrewchon/andrewchon.chon">source code</a></p>
+  </footer>
+</body>
+
 </html>
