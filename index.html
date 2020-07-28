@@ -15,7 +15,6 @@
 <body>
   <!-- Hero -->
   <section class="hero is-medium">
-
     <div class="hero-body">
       <div class="container">
         <div class="df jc-sb" id="headerWrapper">
@@ -33,7 +32,7 @@
               noreferrer">Email</a>
             <a href="https://github.com/theandrewchon" class="navLink font">Github</a>
             <a href="https://www.linkedin.com/in/andrew-chon-0955181a1/" class="navLink font">LinkedIn</a>
-            <a href="./assets/resume.pdf" class="navLink font">Resume</a>
+            <a href="./assets/Chon, Andrew Resume 2020.pdf" class="navLink font">Resume</a>
             <button id="themeButton">☽</button>
           </div>
         </div>
@@ -46,12 +45,16 @@
       <div>
         <p class="is-danger is-light mb-12 tag" id='tagStatus'>Currently Looking</p>
         <p class="fs-2 fw-300 font" id='bio'>
-          Full stack web developer at Sip. Former clinical data analyst at
-          Tempus, a $5 billion healthtech unicorn. My skillsets include React, Node, Express, SQL, and MongoDB.
-          Currently liviing in Chicago, IL.
+          Software engineer at Sip. Former clinical data analyst at
+          Tempus, a $5 billion healthtech unicorn. My skillsets include React, Node, Express, MySQL, MongoDB, and
+          DynamoDB.
         </p>
       </div>
     </div>
+  </section>
+
+  <section>
+
   </section>
 
   <!-- Portfolio (Grid based w/ responsiveness) -->
@@ -59,6 +62,41 @@
     <main class="container">
       <p class="fs-2-5 font fw-600 mb-24 ta-c ">Projects</p>
       <div class="columns is-centered is-multiline is-variable is-8">
+        <div class="column is-half">
+          <div class="card portfolioCard">
+            <div class="card-image">
+              <figure>
+                <a href="https://www.siplanguage.com/?lang=en">
+                  <img src="./Images/Sip.png" alt="screenshot" /></a>
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <a href="https://www.siplanguage.com/?lang=en">
+                    <p class=" textColor title is-4">DevConnecor</p>
+                  </a>
+                </div>
+              </div>
+              <div class="content">
+                <p class="textColor">
+                  Sip is a language learning startup designed aimed to make learning Korean enjoyable and easy.
+                  Sip utilizes the concept of comprehensible input to aquire fluency through watching content that you
+                  love.
+                </p>
+                <p class="textColor">
+                  The app utilizes React as the frontend library while relying on AWS for its backend technologies and
+                  deployment. It uses AWS Amplify to deploy the scalable full stack application, AWS Cognito for its
+                  user
+                  authentication and management, and DynamoDB for the database.
+                </p>
+                <p style="margin-bottom: 0px" class="textColor">Username: testuser9421@gmail.com</p>
+                <p class="textColor">Password: testuser123</p>
+                <p class="textColor">Technology: React, Express, AWS Amplify, AWS Cognito, AWS DynamoDB, AWS Lambda</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="column is-half">
           <div class="card portfolioCard">
@@ -72,7 +110,7 @@
               <div class="media">
                 <div class="media-content">
                   <a href="https://mern-dev-con.herokuapp.com/">
-                    <p class=" textColor title is-4">BAE</p>
+                    <p class=" textColor title is-4">DevConnecor</p>
                   </a>
                   <p class="subtitle is-6">
                     <a href="https://github.com/theandrewchon/MERN-githubpage">GitHub</a>
@@ -84,8 +122,8 @@
                   DevConnector is a social network app for developers to converse and post in a public forum. It uses
                   Stateless JWT authentication and Redux for state management.
                 </p>
-                <p style="margin-bottom: 0px">Username: testuser@gmail.com</p>
-                <p>Password: user123</p>
+                <p style="margin-bottom: 0px" class="textColor">Username: testuser@gmail.com</p>
+                <p class="textColor">Password: user123</p>
                 <p class="textColor">Technology: React, Redux, Node, Express,MongoDB, & JWT</p>
               </div>
             </div>
@@ -117,9 +155,10 @@
                   beforehand, and the atendees up/downvote the agenda items they feel need to be discussed. If an items
                   has negative votes, it switches to a BAE (Been An Email) item.
                 </p>
-                <p>My role was setting up backend, including setting up the Express API routes and creating the MongoDB
+                <p class="textColor">My role was setting up backend, including setting up the Express API routes and
+                  creating the MongoDB
                   models. I also coded the home and user page.</p>
-                <p style="margin-bottom: 0px">Username: testuser@gmail.com</p>
+                <p style="margin-bottom: 0px" class="textColor">Username: testuser@gmail.com</p>
                 <p>Password: user123</p>
                 <p class="textColor">Technology: Node.js, Express, React, and MongoDB, Passport</p>
               </div>
@@ -186,67 +225,6 @@
                   movie and find which streaming service it is on.
                 </p>
                 <p class="textColor">Technology: JS, JQuery, External API service</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column is-half">
-          <div class="card portfolioCard">
-            <div class="card-image">
-              <figure>
-                <a href="https://budget-tracker-nw.herokuapp.com/">
-                  <img src="./Images/Budget Tracker.png" alt="Budget Tracker" /></a>
-              </figure>
-
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <a href="https://budget-tracker-nw.herokuapp.com/">
-                    <p class="textColor title is-4">Budget Tracker</p>
-                  </a>
-                  <p class="subtitle is-6">
-                    <a href="https://github.com/theandrewchon/budget-tracker">GitHub</a>
-                  </p>
-                </div>
-              </div>
-              <div class="content">
-                <p class="textColor">
-                  A simple budget tracker using Heroku and mLab for persistent and ubiquitous access. It utilizes
-                  IndexedDB to temporarily store any information during any connection loss and automatically uploads it
-                  to the Mongo database when the connection is resumed.
-                </p>
-                <p class="textColor">Stack: MongoDB, Express, JQuery, Mongoose</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column is-half">
-          <div class="card portfolioCard">
-            <div class="card-image">
-              <figure>
-                <a href="https://workout-tracker-ac.herokuapp.com/stats">
-                  <img src="./Images/Workout tracker.png" alt="Workout Tracker" /></a>
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <a href="https://workout-tracker-ac.herokuapp.com/stats">
-                    <p class="textColor title is-4">Workout Tracker</p>
-                  </a>
-                  <p class="subtitle is-6">
-                    <a href="https://github.com/theandrewchon/workout-tracker">GitHub</a>
-                  </p>
-                </div>
-              </div>
-              <div class="content">
-                <p class="textColor">
-                  A simple budget tracker using Heroku and mLab for persistent and ubiquitous access. It utilizes
-                  IndexedDB to temporarily store any information during any connection loss and automatically uploads it
-                  to the Mongo database when the connection is resumed.
-                </p>
-                <p class="textColor">Stack: MongoDB, Express, JQuery, Mongoose</p>
               </div>
             </div>
           </div>
