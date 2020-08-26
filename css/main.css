@@ -29,6 +29,10 @@ html[data-theme="dark"] {
 	color: var(--text-color);
 }
 
+.lightTextColor {
+	color: var(text-color-subtitle)
+}
+
 /* Custom */
 
 .code-container {
