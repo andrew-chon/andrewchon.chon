@@ -120,15 +120,23 @@ img {
 	}
 }
 
+@media screen and (max-width: 769px) {
+  .reverse-row-order {
+    display: flex;
+    flex-direction: column-reverse;
+	}
+	.graphic-size {
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
 /* Visual */
 .b {
 	border: 1px red solid;
 }
 
 /* text */
-.font {
-	font-family: Montserrat, Helvetica, Arial, sans-serif;
-}
 .fs-1 {
 	font-size: 1rem;
 }
@@ -195,7 +203,7 @@ img {
 
 /*Spacing */
 .v-center {
-	margin: auto 0;
+	margin: 0 auto;
 }
 .margin {
 	margin: 0px 10%;
