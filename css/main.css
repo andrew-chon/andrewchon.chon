@@ -3,6 +3,7 @@ body {
 	background-color: var(--background);
 	color: var(--text-color);
 	transition: background 500ms ease-in-out, color 200ms ease;
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
 }
 
 .card-content {
