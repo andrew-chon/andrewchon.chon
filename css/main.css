@@ -30,10 +30,6 @@ html[data-theme="dark"] {
 	color: var(--text-color);
 }
 
-.lightTextColor {
-	color: var(text-color-subtitle)
-}
-
 /* Custom */
 
 .code-container {
@@ -65,10 +61,13 @@ img {
 	text-decoration: none;
 }
 
-.portfolioCard {
-	max-width: 450px;
-	margin: 0px auto;
+.resumeSpacing p{
+	padding-top: 12px;
 }
+.resumeSpacing h3{
+	padding-bottom: 6px;
+}
+
 
 #profileIcon {
 	border-radius: 50%;
