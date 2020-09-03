@@ -81,6 +81,13 @@ img {
 	padding-bottom: 6px;
 }
 
+.resumeTitle {
+	display:flex;
+}
+
+.experienceTag, .educationTag{
+	margin-left: 20px;
+}
 
 #profileIcon {
 	border-radius: 50%;
@@ -100,7 +107,7 @@ img {
 }
 @media screen and (max-width: 860px) {
 	#bio {
-		font-size: 1.6rem;
+		font-size: 1rem;
 	}
 	.container {
 		margin: 0;
@@ -137,6 +144,7 @@ img {
 	#profileWrapper {
 		flex-direction: column;
 	}
+
 }
 
 @media screen and (max-width: 769px) {
@@ -147,6 +155,16 @@ img {
 	.graphic-size {
 		width: 50%;
 		margin: 0 auto;
+	}
+	.experienceTag, .educationTag{
+		width: 100px;
+		margin-left: 0px;
+		margin-bottom: 3px;
+	}
+	.resumeTitle {
+		display:flex;
+		flex-direction: column-reverse;
+		flex-shrink: 1;
 	}
 }
 
